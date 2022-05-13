@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>
+				<meta charset="utf-8">
+				<title>计算圆周率的精确值</title>
+		            <script type="text/javascript">
+		                function fun(){
+		                var i=1,s=0,j=1;  
+		                var pi;  
+		                while(1/i>=0.00000001){   
+		                    s=s+j/i;   j=-j;   i=i+2;  
+		                    }  
+		                document.write("<h1>圆周率的精确值是："+4*s+"</h1>"); 
+		                }
+		            </script>
+		</head>
+			<body>
+		        <div>
+		           <font size="6" color="blueviolet" face="楷体" >
+		            <p>
+		                圆周率的精确值为
+		                <input type="button"  value="=" onclick="fun()"/>
+						<img src="v7.jpg">
+		            </p>
+		           </font>
+		        </div> 
+		    </body>
+    </html>

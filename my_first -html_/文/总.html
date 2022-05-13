@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		* {
+		    margin: 0;
+		    padding: 0;
+		    font-family: "宋体";
+		    font-size: 14px;
+		    color: #666;
+		}
+		
+		body {
+		    background-image: url("../image/ggbj.png");
+		    background-repeat: no-repeat;
+		    background-attachment: fixed;
+		    background-size: 100% 100%;
+		}
+		
+		.wrapper {
+		    width: 900px;
+		    margin: 0 auto;
+		    position: relative;
+		}
+		
+		.logo {
+		    height: 53px;
+		}
+		
+		.logo .left {
+		    float: left;
+		}
+		
+		.logo .right {
+		    padding-top: 20px;
+		    float: right;
+		}
+		.zj{
+			text-decoration: none;
+		}
+		.butterfly {
+		    position: absolute;
+		    right: -17px;
+		    top: -5px;
+		}
+		
+		.right a {
+		    text-decoration: none;
+		    color: #666666;
+		}
+		
+		.nav {
+		    height: 31px;
+		    background-color: #94688C;
+		}
+		
+		.nav ul li {
+		    display: block;
+		    float: left;
+		    width: 100px;
+		    border-right: solid 1px #ffffff;
+		    list-style: none;
+		    margin-top: 7px;
+		}
+		
+		.nav ul li a {
+		    display: inline-block;
+		    line-height: 16px;
+		    text-decoration: none;
+		    color: #ffffff;
+		    padding-left: 20px;
+		}
+		
+		.nav ul li a:hover {
+		    color: #aaaaaa;
+		    transition: all 0.2s;
+		}
+		
+		.nav ul li:last-child {
+		    border-right: none;
+		}
+		
+		.banner {
+		    height: 310px;
+		    margin-top: 5px;
+		    margin-bottom: 10px;
+		}
+		
+		.content {
+		    width: 100%;
+		}
+		
+		.content-left {
+		    float: left;
+		    margin-right: 20px;
+		}
+		
+		.content-middle {
+		    float: left;
+		}
+		
+		.content-right {
+		    float: right;
+		}
+		
+		.c-table {
+		    list-style-image: url("../image/li.jpg");
+		    border-spacing: 0px;
+		}
+		
+		.c-table tr:first-child {
+		    height: 26px;
+		}
+		
+		.c-table tr:first-child td:last-child a {
+		    text-decoration: none;
+		}
+		
+		.c-table tr:first-child td:first-child {
+		    background-color: #6FBB66;
+		    padding-left: 5px;
+		}
+		
+		.c-table tr:first-child td:first-child p {
+		    color: #ffffff;
+		}
+		
+		.c-table tr:last-child td {
+		    border: 1px solid #6FBB66;
+		}
+		
+		.c-table ul {
+		    margin: 10px 20px 0px 20px;
+		}
+		
+		.c-table ul li {
+		    margin: 0 0 0 20px;
+		    line-height: 30px;
+		}
+		
+		.img-table {
+		    border-spacing: 0px;
+		}
+		
+		.img-table tr:first-child {
+		    height: 26px;
+		    background-color: #6FBB66;
+		}
+		
+		.img-table tr:first-child a {
+		    color: #ffffff;
+		    text-decoration: none;
+		}
+		
+		.img-table tr:first-child p {
+		    color: #ffffff;
+		    text-decoration: none;
+		}
+		
+		.img-table img {
+		    margin-top: 5px;
+		    border: solid 5px #c2c2c2;
+		    border-radius: 5px;
+		}
+		
+		.img-table img:hover {
+		    transform: rotate(180deg);
+		    transition: 3s;
+		}
+		
+		.copyright {
+		    clear: both;
+		    height: 60px;
+		    background-color: #94688C;
+		    text-align: center;
+		    line-height: 30px;
+		}
+		
+		.copyright p {
+		    color: #ffffff;
+		}
+		
+		.return-top {
+		    position: fixed;
+		    border: solid 1px #6FBB66;
+		    font-style: #6FBB66;
+		    right: 100px;
+		    bottom: 200px;
+		}
+		
+		.return-top a {
+		    text-decoration: none;
+			line-height: 30px;
+			    color: #666666;
+			}
+		.jw{
+			position: inherit;
+			border: solid 3px brown;
+			font-style:brown ;
+			right: 200px;
+			bottom: 200px;
+			background-color: aquamarine;
+		   
+			}
+		.jw{
+		    text-decoration: none;
+		    line-height: 30px;
+		        color: red;
+			}
+	</style>
+    <title>Document</title>
+</head>
+
+<body style="background-image:url(image/ggbj.png);background-attachment:fixed;background-repeat: no-repeat;">
+    <div class="wrapper" id="header">	
+        <img class="butterfly" src="image/hd2.gif" alt="">
+		<div style="width:900px;margin:0px auto;">
+			<div style="width:900px;height:53px;">
+				<div style="float:left;"><img src="image/logo.jpg">
+			</div>
+			<div style="float:right;line-height:53px;">
+			<class="zj"a href="#">	网站地址　　|　　加入收藏</a>
+			</div>
+		</div>
+        <div class="nav">
+            <ul>
+                <li class="sy"><a href="#">首页</a></li>
+                <li class="sy"><a href="#">家园简介</a></li>
+                <li class="sy"><a href="#">新闻动态</a></li>
+                <li class="sy"><a href="#">宠物种类</a></li>
+                <li class="sy"><a href="#">健康课堂</a></li>
+                <li class="sy"><a href="#">宠物风采</a></li>
+                <li class="sy"><a href="#">宠物论坛</a></li>
+                <li class="sy"><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <img src="image/banner.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <table class="c-table">
+                    <tr>
+                        <td>
+                            <p> 新闻动态</p>
+                        </td>
+                        <td style="text-align:right;"><a href="#">MORE>></a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <ul>
+                                <li>宠物第二季高级管理精英培训启动</li>
+                                <li>美国养犬俱乐部评年度最佳犬类摄影</li>
+                                <li>第十五届亚洲宠物展即将盛大开幕</li>
+                                <li>杭州宠物文化节宠物迷们的狂欢节</li>
+                                <li>第十一届中国国际宠物水族用品展览</li>
+                                <li>德国牧羊犬保姆叼奶瓶喂小羊羔</li>
+                                <li>养宠物之前要做哪些功课</li>
+                                <li>怎么判断狗会不会咬人？</li>
+                                <li>银川河东机场口岸首次迎来入境宠物猫</li>
+                                <li>美国8月将在拉斯维加斯开启宠物展览会</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-middle">
+                <table class="c-table">
+                    <tr>
+                        <td>
+                            <p>健康讲堂</p>
+                        </td>
+                        <td style="text-align:right;"><a href="#">MORE>></a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <ul>
+                                <li>怎样给宠物犬注射疫苗？</li>
+                                <li>专家教你如何让狗狗学会优雅用餐</li>
+                                <li>拉布拉多真菌性皮肤病需注意</li>
+                                <li>有关狗狗的生理知识你知道多少</li>
+                                <li>学会怎样保养狗狗的牙齿和眼睛</li>
+                                <li>夏季警惕狗狗的体外寄生虫</li>
+                                <li>成年的哈士奇会得细小吗？</li>
+                                <li>萨摩耶流眼泪要注意的4种情况</li>
+                                <li>宠物大概多长时间驱虫一次？</li>
+                                <li>牧羊犬的眼部问题</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-right">
+                <table class="img-table">
+                    <tr>
+                        <td>
+                            <p>宠物风采</p>
+                        </td>
+                        <td style="text-align:right;">
+                            <a href="#">MORE>></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/c1.jpg" alt=""></td>
+                        <td> <img src="image/c2.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="image/c3.jpg" alt=""></td>
+                        <td> <img src="image/c4.jpg" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="image/c5.png" alt=""></td>
+                        <td> <img src="image/c6.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>地址：内蒙古农业大学邮编：010010联系方式：XXXXXXXXX</p>
+            <p>版权所有©:XXXXXX</p>
+        </div>
+        <div class="return-top">
+            <a href="#header">返回顶部</a>
+        </div>
+		<div class="jw" align="center" >
+		    <a href="简历.html">个人简历</a>
+		</div>
+		<div class="jw" align="center" >			
+		    <a href="古诗目录.html">进入古诗集</a>				
+		</div>
+		<div class="jw" align="center" >
+		    <a href="π.html">计算π值</a>				
+		</div>
+		
+    </div>
+</body>
+
+</html>
